@@ -16,6 +16,8 @@ Files:
       * How to define and use functions
    * apply.py
       * Advance function invocation
+   * import.py
+      * Importing python modules and their namespaces
    * cube_simple.py
       * Simple object example
    * cube.py / deferred_calc.py
