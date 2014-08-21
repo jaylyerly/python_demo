@@ -15,10 +15,10 @@ class cube(object):
 
     def __getattribute__(self, name):
         if name == "volume" and self.isDirty:
-            self.calculateVolume()
+            self._calculateVolume()
         return object.__getattribute__(self, name)
   
-    def calculateVolume(self):
+    def _calculateVolume(self):
         if self.debug: print "\n*Calculating volume...*\n"
         self.isDirty=False
         self.volume = self.width * self.height * self.depth
