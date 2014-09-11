@@ -15,7 +15,7 @@ myString = "The quick brown fox..."
 # tuple
 myTuple = (myInt, myString, myFloat)
 # imutable sequence
-# most used to return multiple values from a function
+# mostly used to return multiple values from a function
 
 # list
 myList = [1, 2, 3]
