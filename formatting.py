@@ -27,7 +27,7 @@ b = "The quick brown fox jumps over the" + \
 # Line continuation is implied if you have an open (), {} or []
 
 if ( a == a or  
-     b == b ) 
+     b == b ):
      print "True"
      
 c = [ 
