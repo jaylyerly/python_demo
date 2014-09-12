@@ -10,7 +10,7 @@ Files:
       * Python data types
    * string_notes.py
       * Special consideration for strings
-   * builtins.py
+   * some_builtins.py.py
       * Highlighted built-in Python functions
    * control_flow.py
       * Python control flow structures, if/else, for loops, etc.
